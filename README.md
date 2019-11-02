@@ -10,7 +10,7 @@ Below are the steps to:
 
 shell
 git init
-git remote add upstream https://USER_NAME@bitbucket.org/loducode/glypi.git
+git remote add upstream https://github.com/AndresRey3738/Uni-Manager
 git checkout -b develop
 git pull upstream develop
 git checkout -b mi_rama
