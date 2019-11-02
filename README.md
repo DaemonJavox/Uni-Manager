@@ -17,9 +17,9 @@ git checkout -b mi_rama
 git rebase develop
 
 # Authors
-Andres Rey
-Javier Varón
-Adrian Villamil
+Andres Rey - Developer Backend
+Javier Varón - Developer Backend
+Adrian Villamil - Developer Frontend
 
 # License
 This project is under license GNU General Public License v3.0
