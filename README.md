@@ -22,4 +22,4 @@ Javier Varón
 Adrian Villamil
 
 # License
-This project is under license GNU-GPL
+This project is under license GNU General Public License v3.0
