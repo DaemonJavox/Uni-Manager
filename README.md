@@ -8,13 +8,17 @@ Que cosas necesitas para instalar el software y como instalarlas
 # How do I install the environment?
 Below are the steps to:
 
-shell
+# …or create a new repository on the command line
+echo "# Uni-Manager" >> README.md
 git init
-git remote add upstream https://github.com/AndresRey3738/Uni-Manager
-git checkout -b develop
-git pull upstream develop
-git checkout -b mi_rama
-git rebase develop
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/DaemonJavox/Uni-Manager.git
+git push -u origin master
+
+# …or push an existing repository from the command line
+git remote add origin https://github.com/DaemonJavox/Uni-Manager.git
+git push -u origin master
 
 # Authors
 Andres Rey - Developer Backend
