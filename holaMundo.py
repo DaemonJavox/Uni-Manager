@@ -1,1 +1,1 @@
-print "Hola mundo"
+print "Good Bye World"
