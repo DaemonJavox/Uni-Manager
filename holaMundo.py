@@ -1,1 +1,1 @@
-print "Erase una vez una historia feliz, ahora es solo un cuento de horror."
+print "Erase una vez una historia feliz, cuento de horror."
