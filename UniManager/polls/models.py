@@ -1,15 +1,14 @@
 from django.db import models
 
-class Question(models.Model):
-	question_text = models.CharField(max_length=200)
-	pub_date = models.DateTimeField('date published')
-
-
-class Choice(models.Model):
-	question = models.ForeignKey(Question, on_delete=models.CASCADE)
-	choice_text = models.CharField(max_length=200)
-	votes = models.IntegerField(default=0)
-
-class socialMediaCredentials(models.Model):
-	url = models.CharField(max_leng=20000)
+class Credentials(models.Model):
+	user_name = models.CharField(max_length=100)
+	user_email = models.CharField(max_length=200)
+	user_password = models.CharField(max_length=200)
 	
+class DataImage(models.Model):
+	title = models.CharField(max_length=200)
+	description = models.CharField(max_length=1000)
+	link_news = models.CharField(max_length=200)
+	credit = models.CharField(max_length=100)
+	category = models.CharField(max_length=100)
+	image = models.CharField(max_length=500)
